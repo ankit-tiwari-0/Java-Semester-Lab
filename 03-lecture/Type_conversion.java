@@ -20,6 +20,14 @@ public class Type_conversion {
       
       y = (byte) t;
       System.out.println(y); // 300 % 256 = 44 
+
+      // Truncating conversion
+      float f = 15.678f;
+      int x;
+
+      x = (int) f; //casting
+      System.out.println(x);
+
       
     }
 }
