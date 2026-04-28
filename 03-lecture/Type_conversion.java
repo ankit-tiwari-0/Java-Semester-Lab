@@ -11,7 +11,15 @@ public class Type_conversion {
         char c = 'a';
         int n;
         n = c;
-
         System.out.println(n);
+
+      //Explicit conversion
+      //int to byte
+      int t = 300;
+      byte y ; // -128 to +127
+      
+      y = (byte) t;
+      System.out.println(y); // 300 % 256 = 44 
+      
     }
 }
