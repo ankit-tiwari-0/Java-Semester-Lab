@@ -6,5 +6,12 @@ public class Type_conversion {
 
         i = b;  // automatic type conversion
         System.out.println(i);
+
+        //character to int
+        char c = 'a';
+        int n;
+        n = c;
+
+        System.out.println(n);
     }
 }
