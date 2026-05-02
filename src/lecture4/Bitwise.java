@@ -11,6 +11,11 @@ public class Bitwise {
     int f = ~a; //
 
     System.out.println(c + "," +d+","+e+","+f);
+    //shift operations
+    int g = 1; // 00000000 00000000 00000000 00000001 --> 1 
+    g = g << 30;// 01000000 00000000 00000000 00000000 
+    System.out.println(g);
+
     
 
    } 
