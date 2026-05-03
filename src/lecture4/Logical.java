@@ -9,7 +9,10 @@ public class Logical {
         boolean d = (a <b) && (b <c);
 
         System.out.println(d);
-
         
+        //short circuit
+        boolean e = (a <b) & (b <c);
+        System.out.println(e);
+
     }
 }
