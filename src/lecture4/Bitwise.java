@@ -16,7 +16,7 @@ public class Bitwise {
     g = g << 30;// 01000000 00000000 00000000 00000000 
     System.out.println(g);
 
-    
+
 
    } 
 }
