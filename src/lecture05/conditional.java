@@ -20,5 +20,28 @@ public class conditional {
         else{
             System.out.println("o is odd");
         }
+ 
+
+       // if-else-if ladder
+
+
+        int age = 10;
+
+        if (age>80) {
+            System.out.println("u ate old");
+        }
+
+        else if (age>60) {
+            System.out.println("u are old to");
+        }
+        else if (age>40) {
+            System.out.println("u are becoming old");
+        }
+        else if (age>20) {
+            System.out.println("u are young");
+        }
+        else {
+            System.out.println("bachha hai abi tu");
+        }
     } 
 }
